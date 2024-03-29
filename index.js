@@ -1,11 +1,13 @@
 
 // Write your code here
-// Define num1 and num2
 var num1 = 31;
 var num2 = 2;
-
-// Create a variable called multiply and set it to the result of multiplying num1 and num2
 var multiply = num1 * num2;
-
-// Check if the result is 62
-console.log(multiply === 62); // Output: true
+let random = Math.floor(Math.random() * 10) + 1;
+let mod;
+let num3 = 104
+let num4 = 5;
+mod = num3 % num4
+let max;
+let setData = new Set([2, 4, 5, 20, 12]);
+max = Math.max(...setData)
